@@ -10,11 +10,11 @@ public class Circulo {
     }
 
     public String toString() {
-        return "Círculo con centro en " + centro + " y radio " + String.format("%.2f", radio);
+        return "Círculo con centro en " + this.centro + " y radio " + String.format("%.2f", this.radio);
     }
 
     public void dibujaCirculo() {
-        System.out.println("Dibujando círculo con centro en " + centro + " y radio " + String.format("%.2f", radio));
+        System.out.println("Dibujando círculo con centro en " + this.centro + " y radio " + String.format("%.2f", this.radio));
     }
 
     public static void main(String[] args) {

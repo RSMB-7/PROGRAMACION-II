@@ -13,7 +13,7 @@ public class Linea {
     }
 
     public void dibujaLinea() {
-        System.out.println("Dibujando línea de " + p1 + " a " + p2);
+        System.out.println("Dibujando línea de " + this.p1 + " a " + this.p2);
     }
 
     public static void main(String[] args) {
